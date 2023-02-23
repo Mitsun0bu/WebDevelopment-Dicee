@@ -1,0 +1,35 @@
+body {
+    background-color : #393E46;
+    color            : #4ECCA3;
+    text-align       : center;
+}
+
+h1 {
+    font-family : 'Lobster', cursive;
+    font-size   : 8rem;
+    margin      : 30px;
+    text-shadow : 5px 0 #232931;
+  }
+
+p {
+    font-family : 'Indie Flower', cursive;
+    font-size   : 2rem;
+}
+
+footer {
+    color       : #EEEEEE;
+    font-family : 'Indie Flower', cursive;
+    margin-top  : 5%;
+    text-align  : center;
+}
+
+.gameContainer {
+    display: flex;
+}
+  
+.player1, .player2 {
+    box-sizing     : border-box;
+    display        : inline-block;
+    vertical-align : top;
+    width          : 50%;
+}
